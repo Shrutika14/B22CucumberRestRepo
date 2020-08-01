@@ -41,7 +41,7 @@ public class TestCompareJson {
 		//JSONAssert.assertEquals(expected5, actual5, JSONCompareMode.NON_EXTENSIBLE);
 		
 		//case4 : sequence Change : FAIL
-				String actual5   = "{id:123,name:\"Jerry\, address:\"Pune\"}";
+				String actual5   = "{id:123,name:\"Jerry\", address:\"Pune\"}";
 				String expected5 = "{name:\"Jerry\", id:123}";
 				JSONAssert.assertEquals(expected5, actual5, JSONCompareMode.NON_EXTENSIBLE);
 
